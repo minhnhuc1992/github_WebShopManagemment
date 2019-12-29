@@ -34,7 +34,7 @@ namespace WebShopManagement.GUI
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Home/Error");    
             }
 
             app.UseStaticFiles();
